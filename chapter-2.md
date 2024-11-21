@@ -296,7 +296,7 @@ The fractal geometric aspects of **QFNA** require a sophisticated measure-theore
 
 ### 2.2.1 Scale-Dependent Measure Construction
 
-To represent information distributed across multiple scales in a fractal space $F$, we define a family of measures $\{\mu_s\}_{s \in \mathbb{R}_+}$ indexed by a positive real parameter $s$, which denotes the scale. These measures satisfy two key properties:
+To represent information distributed across multiple scales in a fractal space $F$, we define a family of measures $`\{\mu_s\}_{s \in \mathbb{R}_+}`$ indexed by a positive real parameter $s$, which denotes the scale. These measures satisfy two key properties:
 
 1. **Consistency Across Scales**:
    For any measurable sets $A, B \subseteq F$ and scales $s_1, s_2$, the measures are coupled through the following integral relationship:
@@ -312,6 +312,7 @@ To represent information distributed across multiple scales in a fractal space $
 ```
 
    ensuring that the measures remain normalised and consistent across scales.
+
 2. **Scale Covariance**:
    For any measurable set $A$ and scaling factor $\lambda > 0$, the measure transforms as:
 
@@ -341,6 +342,7 @@ D_0 \leq d(s) \leq D_1
 ```
 
    where $D_0$ is the minimum fractal dimension, corresponding to the smallest scale, and $D_1$ represents an upper bound imposed by computational constraints.
+
 2. **Regularity Condition**:
    The dimension function $d(s)$ satisfies a Lipschitz continuity condition:
 
@@ -354,7 +356,7 @@ D_0 \leq d(s) \leq D_1
 
 #### 2.2.3 Measure-Theoretic Properties
 
-The scale-dependent measures $\{\mu_s\}_{s \in \mathbb{R}_+}$ exhibit several key properties that facilitate consistent and efficient multi-scale information processing:
+The scale-dependent measures $`\{\mu_s\}_{s \in \mathbb{R}_+}`$ exhibit several key properties that facilitate consistent and efficient multi-scale information processing:
 
 1. **Local Finiteness**:
    For any bounded set $A \subseteq F$ and scale $s$:
@@ -364,6 +366,7 @@ The scale-dependent measures $\{\mu_s\}_{s \in \mathbb{R}_+}$ exhibit several ke
 ```
 
    This ensures that the measure assigns finite values to bounded regions, making computations feasible.
+
 2. **Regular Variation**:
    For any measurable set $A$ and scales $s_1, s_2 > 0$:
 
@@ -408,7 +411,7 @@ d(\Psi_1, \Psi_2) = \left[ \int \int \|\Psi_1(x, s) - \Psi_2(x, s)\|_h^2 \, d\mu
 
 where:
 
-- $\|\cdot\|_h$ is the norm in the effective Hilbert space $H_{\text{eff}}$.
+- $`\|\cdot\|_h`$ is the norm in the effective Hilbert space $H_{\text{eff}}$.
 - $\mu_s$ is the scale-dependent measure on $F$.
 - $s$ and $x$ represent the scale and spatial coordinates, respectively.
 
@@ -480,7 +483,7 @@ The evolution framework integrates quantum-like and fractal dynamics, enabling s
    The interaction between quantum states and fractal structures is mediated by the scale-diffusion operator $\hat{D}$, allowing information to flow coherently across scales.
 
 3. **Emergent Complexity**:
-   The combination of spatial potentials ($\Phi_i(x)$) and scale-dependent potentials ($V_i(s)$) creates hierarchical patterns of activity, corresponding to emergent cognitive behaviours.
+   The combination of spatial potentials ( $\Phi_i(x)$ ) and scale-dependent potentials ( $V_i(s)$ ) creates hierarchical patterns of activity, corresponding to emergent cognitive behaviours.
 
 ---
 
@@ -1344,8 +1347,8 @@ The evolution of meta-cognitive states follows a higher-order quantum-fractal eq
 
 where:
 
-- $\hat{H}_{\text{meta}}$: Meta-cognitive Hamiltonian governing coherent evolution.
-- $\mathcal{L}_{\text{meta}}[\rho_{\text{meta}}]$: Meta-cognitive Lindblad term ensuring stability and consistency.
+- $`\hat{H}_{\text{meta}}`$: Meta-cognitive Hamiltonian governing coherent evolution.
+- $`\mathcal{L}_{\text{meta}}[\rho_{\text{meta}}]`$: Meta-cognitive Lindblad term ensuring stability and consistency.
 - $M_i(s)$: Meta-operators acting on base-level quantum states $\rho(s)$.
 
 The meta-operators $M_i(s)$ enable feedback loops that integrate information from lower-order states into the meta-cognitive process. This integration is key to self-monitoring and adaptive decision-making.
@@ -1773,8 +1776,8 @@ The evolution of the collective state follows modified **von Neumann dynamics**:
 
 where:
 
-- $\hat{H}_{\text{eff}} = \hat{H}_{\text{local}} + \int ds V(s)\rho(s)$: Effective Hamiltonian incorporating local and collective interactions.
-- $\mathcal{L}[\rho]$: Lindblad operator ensuring stability through environmental coupling.
+- $`\hat{H}_{\text{eff}} = \hat{H}_{\text{local}} + \int ds V(s)\rho(s)`$: Effective Hamiltonian incorporating local and collective interactions.
+- $`\mathcal{L}[\rho]`$: Lindblad operator ensuring stability through environmental coupling.
 
 ---
 

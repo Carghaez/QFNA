@@ -121,8 +121,8 @@ To implement these principles, this research employs a multi-faceted methodologi
 
 4. **Empirical Validation of Mechanism Efficiency**:
    To ensure practical relevance and efficiency, the following strategies will be employed:
-   - **Lindblad Dissipation ($L[\rho(s,t)]$)**: Conduct controlled experiments comparing QFNA with and without dissipation terms. Metrics such as convergence time, stability (e.g., reduced oscillations), and accuracy on benchmark datasets like MNIST or CIFAR-10 will be used.
-   - **Fractal Diffusion ($D(s)\nabla^2\rho(s,t)$)**: Implement multi-scale pattern recognition tasks where information is distributed hierarchically (e.g., image segmentation or time-series prediction). Compare performance with traditional architectures that lack explicit multi-scale mechanisms.
+   - **Lindblad Dissipation ( $L[\rho(s,t)]$ )**: Conduct controlled experiments comparing QFNA with and without dissipation terms. Metrics such as convergence time, stability (e.g., reduced oscillations), and accuracy on benchmark datasets like MNIST or CIFAR-10 will be used.
+   - **Fractal Diffusion ( $D(s)\nabla^2\rho(s,t)$ )**: Implement multi-scale pattern recognition tasks where information is distributed hierarchically (e.g., image segmentation or time-series prediction). Compare performance with traditional architectures that lack explicit multi-scale mechanisms.
    - **Abstract Representation Emergence**: Test QFNA’s ability to generate abstract representations on zero-shot learning tasks. Evaluate the adaptability of learned representations across tasks requiring contextual flexibility.
 
 ---
